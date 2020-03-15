@@ -1,0 +1,500 @@
+* {
+	font-family: monospace;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+	overflow-wrap: break-word;
+}
+
+.intro {
+	color: black;
+	font-weight: lighter;
+	font-size: 20px;
+	text-overflow: ellipsis;
+	overflow-wrap: break-word;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.fixed-top {
+	background-color: white;
+	border: solid 1px lightgrey;
+	border-width: 0 0 1px 0;
+}
+
+.webprojects {
+	background-color: #7395AE;
+	/*#34495E;*/
+	color: white;
+	/*#5DADE2;*/
+}
+
+.desktopprojects {
+	background-color: #557A95;
+	/*#2E4053;*/
+	color: white;
+}
+
+.skills {
+	background-color: #283747;
+	color: white;
+}
+
+.experience {
+	background-color: #212F3C;
+	color: white;
+}
+
+.biography {
+	background-color: #1B2631;
+	color: white;
+}
+
+.projects {
+	background-color: #050505;
+	color: white;
+}
+
+.contact {
+	background-color: black;
+	color: white;
+}
+
+.projs {
+	/*height: 40vw;
+	width: inherit;*/
+}
+
+.proj, .description {
+	width: 100%;
+}
+
+.visuals, .description {
+	height: 40vw !important;
+}
+
+.firstproj {
+	/*margin-top: 45px;*/
+}
+
+.title, .header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	height: 45px;
+	overflow-y: hidden;
+}
+
+.sectid {
+	font-size: 24px;
+}
+
+.projdetails {
+	width: 100%;
+	height: 100%;
+}
+
+.projdetails:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.description {
+	position: relative;
+	font-size: 15px;
+	padding: 3vw 2vw 3vw 2vw;
+	height: inherit;
+	transition: all ease 0.5s;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.description:hover {
+	color: #D0D3D4;
+	background-color: rgba(0, 0, 0, 0.8);
+	/*opacity: 0.7;*/
+	transition: all ease 0.5s;
+}
+
+.description:hover .details hr {
+	background-color: #D0D3D4;
+	opacity: 0.7;
+	transition: all ease 0.5s;
+}
+
+.description h2 {
+	text-align: center;
+	font-size: 1.5vw;
+	word-wrap: break-word;
+}
+
+.description .details h3 {
+	font-size: 2vw;
+	text-align: center;
+}
+
+.techlist a {
+	width: 100%;
+}
+
+.techimg {
+	width: 100%;
+	height: 100%;
+}
+
+.details h3 {
+	font-weight: bold;
+}
+
+.visuals {
+	width: inherit;
+	padding: 0 15px 0 15px !important;
+	height: inherit;
+	overflow-y: hidden;
+	border-radius: 6px;
+}
+
+.projimg {
+	width: 100%;
+	height: inherit;
+}
+
+.more {
+	text-align: center;
+	font-size: 7vw;
+	color: black;
+	opacity: 1;
+}
+
+.more .fa-chevron-right {
+	overflow-y: hidden;
+	vertical-align: middle;
+}
+
+.more:hover {
+	background-color: rgba(0, 0, 0, 1);
+	color: white;
+	transition: all ease 0.5s;
+}
+
+.description:hover .details .techlist .more {
+	color: #D0D3D4;
+	opacity: 0.7;
+	transition: all ease 0.5s;
+}
+
+/*scroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F7F9F9;
+  border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2C3E50;
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+/*more details modal*/
+.modal-body {
+	background-color: white; 
+	padding: 0 !important;
+}
+
+.modalcontent{
+	/*font-size: 1.5em; */
+	font-weight: bold; 
+	padding: 25px;
+	padding: 0 !important;
+}
+
+.modalcontent .body {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.modalprojimages{
+	width: inherit !important;
+	height: inherit !important;
+}
+
+.carousel-item{
+	width: 100% !important;
+	height: 23vw;
+}
+
+.Cancel {
+	text-align: center;
+}
+
+button.cancel{
+	border-radius: 40px; 
+	padding: 5px 10px 5px 10px !important; 
+	margin: 5px 0px 10px 0px; 
+	font-size: 20px; 
+	background-color: lightgrey; 
+	color: black; 
+	font-weight: bolder;
+}
+
+button.cancel i {
+	vertical-align: middle;
+	margin-right: 7px;
+}
+
+hr.formodal {
+	margin: 2px 0 4px 0 !important;
+}
+
+.modaltitle {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/*stick to top*/
+.sticktotop {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  transition: all ease 0.8s;
+}
+
+.content {
+	font-size: 3vw;
+	font-weight: bolder;
+	position: absolute;
+	z-index: 99;
+	height: 100%;
+	opacity: 0.8;
+	transition: all ease 0.5s;
+	text-overflow: ellipsis;
+	color: white;
+	padding: 10vw 0 20px 0;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.backimages {
+	width: 100%;
+}
+
+.backimage {
+	width: inherit;
+	height: inherit;
+}
+
+.skillsummary {
+	font-size: 2vw;
+}
+
+.nodecor {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.nodecor:hover {
+	text-decoration: none;
+	color: #21618C;
+	transition: all ease 0.2s;
+}
+
+footer {
+	text-align: left;
+	margin-bottom: 10px;
+	width: 85px;
+	height: auto;
+	background-color: transparent;
+	color: white;
+	padding-right: 0;
+	margin-left: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+footer .menuheader {
+	font-size: 40px;
+	font-weight: lighter;
+	background-color: transparent;
+}
+
+.menuheader i {
+	vertical-align: middle;
+	overflow-y: hidden;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.menubody {
+	position: fixed;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.8;
+	color: white;
+	margin-left: 24px;
+	text-align: center;
+	height: auto;
+	padding: 2px 5px 2px 5px !important;
+}
+
+.menubody a {
+	font-size: 20px;
+}
+
+.menusplit {
+	height: 205px;
+	display: none;
+}
+
+.shownow {
+	display: inherit;
+	transition: all ease 5s;
+}
+
+.show {
+	/*transition: all ease 0.3s;*/
+}
+
+.proj.container-fluid {
+	padding: 0 !important;
+}
+
+.modal {
+	overflow-y: inherit;
+}
+
+/*skills*/
+.leadBody {
+	text-overflow: ellipsis;
+}
+
+.leadBody h4 {
+	font-size: 15px;
+	padding-right: 3px !important;
+}
+
+.leadBody h3 {
+	font-size: 17px;
+	display: inline-flex;
+}
+
+.fa, .fab {
+	vertical-align: middle !important;
+	overflow-y: hidden;
+	display: inline-block;
+}
+
+h2.lead {
+	cursor: pointer;
+}
+
+.skillimg, .expimg {
+	width: 15px;
+}
+
+/*experience*/
+.exphead {
+	padding-right: 0;
+	font-weight: bold;
+}
+
+.expheadtitle {
+
+}
+
+.expheadduration {
+	float: right !important;
+}
+
+.expBody h3, .bio h3, .hindex {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.expBody h4, .bio h4, .hvalue {
+	font-size: 15px;
+}
+
+/*biography*/
+.bioimage {
+	width: 100%;
+	/*height: 30vw;*/
+	margin-bottom: 10px;
+}
+
+.mantrabody span, .interestbody span {
+	margin-bottom: 10px;
+}
+
+.bioone {
+	padding: 0 !important;
+}
+
+/*project/job types*/
+.intromsg {
+	font-size: 21px;
+	text-align: center;
+}
+
+.projecttype {
+	cursor: pointer;
+}
+
+a.projcontact:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.showornot {
+	font-size: 30px;
+	text-align: center;
+	width: 100%
+}
+
+.showornot:hover {
+	color: black;
+	/*#3498DB*/
+	transition: all ease 0.2;
+}
+/*contact*/
+.contactitem {
+	font-size: 25px;
+	text-decoration: none;
+	/*background-color: red;*/
+	margin: 0 auto !important;
+}
+
+.contactitem:hover {
+	color: inherit;
+	opacity: 0.7;
+}
+
+.contactbodyitems {
+	text-align: center !important;
+	margin: 0 auto !important;
+}
+
+.endmsg {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}

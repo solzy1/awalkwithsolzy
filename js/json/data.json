@@ -1,0 +1,166 @@
+{
+	"path": {"webimage": "img/web/", "desktopimage": "img/desktop/", "techimage": "img/tech/"},
+	"web": 
+	[
+		{
+			"id": "1", 
+			"name": "borell", 
+			"type": "web application",
+		    "shortdescription": "Borell, an e-commerce web platform for advertising, perusing and purchasing of any kind of goods and services.",
+		    "fulldescription": "A market place is where you go, to find what you desire and sometimes just to peruse without getting anything. Gone are the days when you need to do that in person, with borell you can do that from the comfort of your own home or wherever you choose. Feel free to peruse this market place. <a>Borell</a>, Buy or Sell it's your choice.", 
+		    "tools": ["1", "2"], 
+		    "imagepath": "borell/",
+		    "imagespath": ["1.png", "2.png", "3.png", "4.png", "5.png"], 
+		    "duration": "2 months/8 weeks/62 days", 
+		    "teamno": "1",
+		    "teammates": "nil",
+		    "domain": "nil",
+		    "repository": "<a href='https://github.com/solzy1/borell' target='_blank'>github</a"
+		},
+		{
+			"id": "2", 
+			"name": "hustleinlagos", 
+			"type": "website",
+		    "shortdescription": "HustleinLagos, an advertisement and payment platform for top notch events, residences/accomodations and smes.",
+		    "fulldescription": "If you're looking for a good time, for accomodation or goods and services to acquire or advertise, then <a href='https://www.hustleinlagos.com' target='_blank'>HustleinLagos</a> is for you. <a href='https://www.hustleinlagos.com' target='_blank'>HustleinLagos</a>, bringing to you the lagos experience in form of top notch events, residences and smes", 
+		    "tools": ["1", "2"], 
+		    "imagepath": "hustleinlagos/",
+		    "imagespath": ["6.png"], 
+		    "duration": "1 month/4 weeks/31 days", 
+		    "teamno": "2",
+		    "teammates": "Busayo Oyebode (contact: <a href='https://wa.me/2349052820321' target='_blank'><i class='fa fa-comments' style='vertical-align: middle'></i> whatsapp</a>)",
+		    "domain": "nil",
+		    "repository": ""
+		},
+		{
+			"id": "3", 
+			"name": "eltvseries", 
+			"type": "website",
+		    "shortdescription": "Eltvseries, a platform for perusing and downloading tvshows/series. It's based off the popular o2tvseries.com.",
+		    "fulldescription": "If you're like most people that love the escape and entertainment that tvshows/series provide, then you're in the right place. Feel free to discover new series or find the ones you already follow and download them. Eltvseries, your favorite home for your best series.", 
+		    "tools": ["2", "3"], 
+		    "imagepath": "eltvseries/",
+		    "imagespath": ["1.png", "2.png", "3.png", "4.png", "5.png"], 
+		    "duration": "1 month/4 weeks/31 days", 
+		    "teamno": "nil",
+		    "teammates": "nil",
+		    "domain": "nil",
+		    "repository": ""
+		},
+		{
+			"id": "4", 
+			"name": "borell", 
+			"type": "web application",
+		    "shortdescription": "Borell, an e-commerce web platform for advertising, perusing and purchasing of any kind of goods and services.",
+		    "fulldescription": "A market place is where you go, to find what you desire and sometimes just to peruse without getting anything. Gone are the days when you need to do that in person, with borell you can do that from the comfort of your own home or wherever you choose. Feel free to peruse this market place. <a>Borell</a>, Buy or Sell it's your choice.", 
+		    "tools": ["1", "2"], 
+		    "imagepath": "borell/",
+		    "imagespath": ["1.png", "2.png", "3.png", "4.png", "5.png"], 
+		    "duration": "8 weeks", 
+		    "teamno": "1",
+		    "teammates": "nil",
+		    "domain": "nil",
+		    "repository": ""
+		}
+	],
+	"desktop": 
+	[
+		{
+			"id": "1", 
+			"name": "bkmarks", 
+			"type": "desktop application",
+		    "shortdescription": "Borell, an e-commerce web platform for advertising, perusing and purchasing of any kind of goods and services.",
+		    "fulldescription": "A market place is where you go, to find what you desire and sometimes just to peruse without getting anything. Gone are the days when you need to do that in person, with borell you can do that from the comfort of your own home or wherever you choose. Feel free to peruse this market place. <a>Borell</a>, Buy or Sell it's your choice.", 
+		    "tools": ["1", "2"], 
+		    "imagepath": "bkmarks/",
+		    "imagespath": ["1.png", "2.png", "3.png", "4.png", "5.png"], 
+		    "duration": "8 weeks", 
+		    "teamno": "1",
+		    "domain": "nil",
+		    "repository": ""
+		}
+	],
+	"tools":
+	[
+		{"id": "1", "name": "php", "url": "https://www.php.net", "imagepath": "php.png"},
+		{"id": "2", "name": "mysql", "url": "https://mysql.com", "imagepath": "mysql.png"},
+		{"id": "3", "name": "laravel", "url": "https://laravel.com", "imagepath": "laravel.png"},
+		{"id": "4", "name": "bootstrap", "url": "https://bootstrap.com", "imagepath": "bootstrap.png"},
+		{"id": "5", "name": "jquery", "url": "https://jquery.com", "imagepath": "jquery.png"},
+		{"id": "6", "name": "Vue.js", "url": "https://jquery.com", "imagepath": "vuejs.png"},
+		{"id": "7", "name": "html", "url": "https://jquery.com", "imagepath": "html.png"},
+		{"id": "8", "name": "css", "url": "https://jquery.com", "imagepath": "css.png"},
+		{"id": "9", "name": "c#", "url": "https://jquery.com", "imagepath": "csharp.jpg"},
+		{"id": "10", "name": "asp.net core mvc", "url": "https://jquery.com", "imagepath": "aspnetcore.jpg"},
+		{"id": "11", "name": "asp.net core web api", "url": "https://jquery.com", "imagepath": "dotnetcore.png"},
+		{"id": "12", "name": "microsoft sql server", "url": "https://jquery.com", "imagepath": "mssqlserver.png"},
+		{"id": "13", "name": "windows presentation foundation (wpf)", "url": "https://jquery.com", "imagepath": "wpf.jpg"},
+		{"id": "14", "name": "java", "url": "https://jquery.com", "imagepath": "java.png"},
+		{"id": "15", "name": "javafx", "url": "https://jquery.com", "imagepath": "javafx.png"},
+		{"id": "16", "name": "gluon scenebuilder", "url": "https://jquery.com", "imagepath": "scenebuilder.png"},
+		{"id": "17", "name": "microsoft sql server compact", "url": "https://jquery.com", "imagepath": "mssqlservercompact.jpg"},
+		{"id": "18", "name": "visual c++", "url": "https://jquery.com", "imagepath": "cplusplus.jpg"},
+		{"id": "19", "name": "javascript", "url": "https://jquery.com", "imagepath": "javascript.png"},
+		{"id": "20", "name": "visual studio ide", "url": "https://jquery.com", "imagepath": "visualstudio.png"},
+		{"id": "21", "name": "sublime text", "url": "https://jquery.com", "imagepath": "sublime.jpg"},
+		{"id": "22", "name": "netbeans ide", "url": "https://jquery.com", "imagepath": "netbeans.jpg"},
+		{"id": "23", "name": "wordpress", "url": "https://jquery.com", "imagepath": "wordpress.png"},
+		{"id": "24", "name": "search engine optimization (seo)", "url": "https://jquery.com", "imagepath": "seo.png"},
+		{"id": "25", "name": "algorithm design and development", "url": "https://jquery.com", "imagepath": "algorithm.jpg"},
+		{"id": "26", "name": "data structures", "url": "https://jquery.com", "imagepath": "datastructure.jpg"},
+		{"id": "27", "name": "Fluency in English, Spanish and Mandarin", "url": "https://jquery.com", "imagepath": "language.jpg"},
+		{"id": "28", "name": "structured query language (sql)", "url": "https://jquery.com", "imagepath": "sql.jpg"},
+		{"id": "29", "name": "creative problem solving", "url": "https://jquery.com", "imagepath": "cpsolving.jpg"},
+		{"id": "30", "name": "google chrome", "url": "https://jquery.com", "imagepath": "chrome.jpg"},
+		{"id": "31", "name": "adobe photoshop", "url": "https://jquery.com", "imagepath": "photoshop.jpg"},
+		{"id": "32", "name": "angular.js", "url": "https://jquery.com", "imagepath": "angularjs.png"},
+		{"id": "33", "name": "asp.net mvc", "url": "https://jquery.com", "imagepath": "aspnetcore.jpg"},
+		{"id": "34", "name": "python", "url": "https://jquery.com", "imagepath": "python.jpg"}
+	],
+	"skills":
+	[
+		{"id": "1", "skill": "Responsive Web Design", "tools": ["4", "5", "19", "32", "6", "7", "8"]},
+		{"id": "2", "skill": "Back-end Web Development", "tools": ["1", "3", "9", "10", "11", "2", "12", "33"]},
+		{"id": "3", "skill": "Desktop Applications Development", "tools": ["9", "13", "14", "15", "16", "17"]},
+		{"id": "4", "skill": "Object Oriented Design and Development", "tools": ["9", "14", "18"]},
+		{"id": "5", "skill": "Programming Languages", "tools": ["9", "14", "18", "1", "19", "34"]},
+		{"id": "6", "skill": "Others", "tools": ["23", "31", "24", "28", "20", "21", "22", "30", "29", "25", "26", "27"]}
+	],
+	"projecttypes":
+	[
+		{"id": "1", "name": "web applications"},
+		{"id": "2", "name": "websites"},
+		{"id": "3", "name": "features"},
+		{"id": "4", "name": "scripts"},
+		{"id": "5", "name": "custom desktop applications"}
+	],
+	"experience":
+	[	
+		{"id": "1", "role": "Freelancer", "company": "Fiverr", "duration": "2017 - 2019", "projecttypes": ["1", "2", "3", "4", "5"], "tools": ["1", "2", "4", "7", "5", "8", "9", "10", "13", "14", "15", "16", "17", "19", "20", "21", "22", "25", "30"]},
+		{"id": "2", "role": "Software Engineering Intern", "company": "Hiit Plc", "duration": "May - October, 2017", "projecttypes": ["1", "5"], "tools": ["9", "33", "12", "14", "15", "16", "19", "20", "22", "25"]}
+	],
+	"biography":
+	{	
+		"displaypic": "img/bio/2.jpg",
+		"name": "Fidelis Solomon Mudiaga",
+		"dob": "Born on the 22nd of february",
+		"education": "Studied for 5 years, to attain a Bsc. in Systems Engineering at unilag and graduated in 2018",
+		"nysc": "Served! (started in 2019, finished serving on the 5th of march, 2020)",
+		"summary": "Been coding for 5 years, give or take. Took interest after taking a programming course in c#, only started to attempt monetizing it in 2017. Being a tech enthusisat myself, I'm interested in ushering the next stage of tech prodigies, more qualified than myself and my peers...<span class='biomore'>I believe in the impact of choices and how they affect your next choice, in other words life's gift is choice, i love that fact! I love the fact that coding gives me a blank sheet, that i can create whatever it is i imagine, with coding, the only limit is your unwilingness to think better and do more and that my friend is awesome in itself!!</span>",
+		"mantras": ["The only limit that exists in this world is the one you allow, in other words your only limit is you!", "Make a choice while you have the luxury of it, the window of opportunity doesn't open for long", "Make the best choice(s) with the information you have, so don't limit the information you could have, that way you stand a better chance of making the best decision"],
+		"interests": ["Playing mind games (e.g. chess)", "Watching movies", "Technology", "Programming languages and it's applications", "Computers", "Results", "Smart work", "Achieving greatness", "keyboard", "Languages (Spanish, Mandarin, French)", "Motivational speaking/talks", "Muhammed Ali", "Bill gates", "Alli Baba", "Meeting new people", "Overcoming new challenges", "The alpha and omega"]
+	},
+	"services":
+	[
+		{"title": "E-commerce", "type": "website", "about": "An E-commerce website is an online shop where people can order goods and make payments from the comfort of their own homes. If you have products to sell and would like to enjoy the benefits of not having to run a traditional bricks-and-mortar shop with things like overheads to consider, then this is definitely the way forward. I can design bespoke Ecommerce websites to suit all requirements."},
+		{"title": "Blogs and Personal", "type": "website", "about": "A blog is a website that’s regularly updated, run by one person or a small group, and is normally written in a laid-back style.In terms of the content, when it comes to blogging, the world really is your oyster. Hell, there’s even a blog about oysters! Even if your site won’t be a blog, it’s still a handy extra feature to add interest and authority to your site. Just make sure you’re committed to keeping it fresh and updated. Personal websites have been a favourite for families and people who wish to document the big occasions of their lives such as weddings, new babies or their travels."},
+		{"title": "Business", "type": "website", "about": "A business website is any kind of website that represents your business. Even small local businesses need a simple online presence (see <a href='#'>Brochure</a>) to be taken seriously in today’s digitally-minded world. A website is one of the easiest ways to show what your business is all about, and find those all-important new customers. Your website should have an about page, and details of how people can find you. After that, the sky’s the limit. Check out our Ecommerce section below for businesses that plan to sell directly through their website."},
+		{"title": "Educational", "type": "website", "about": "The term ‘educational’ covers a broad range of websites. Educational websites use any combination of games, articles, videos and images to educate their audience. These might be geared towards fun learning for children, or offer courses to adults, such as Coursera and EdX."},
+		{"title": "Media or Entertainment", "type": "website", "about": "Media websites contain regularly updated content on current affairs, weather, sports and entertainment. News sites like CNN and entertainment sites like ELLE both fall into this category. The content on media sites is dynamic, meaning it’s updated regularly. Big media sites will publish multiple articles and videos every single day."},
+		{"title": "Resume", "type": "website", "about": "Much better than just listing your skills on paper, an interactive online resume showcases who you are, not just your qualifications, giving you much more control over your first impressions with prospective employers."},
+		{"title": "Portfolio", "type": "website", "about": "Ideal for showcasing your work, everyone from landscape photographers to fashion models have an online portfolio these days to show off their talent to potential employers."},
+		{"title": "Catalogue and Brochure", "type": "website", "about": "If you have a product or a service that does not require payment online, then an online catalogue or brochure will enable you to display what you have on offer and attract potential clients. Spreading the word about a business used to be limited to television, print or radio, however a website gives a much wider reach. Online brochures are a great idea for dental surgeries, hair salons, holiday destinations and manufacturers."},
+		{"title": "Online community", "type": "website", "about": "Community forums are a great way to get in touch and share ideas with people with the same interests or from similar backgrounds through the Internet. This interactive feature can be the main focus of the website, or just a part of it so that visitors can discuss what the site is about."},
+		{"title": "Photo sharing", "type": "website", "about": "Websites such as Pixabay.com allow people to upload and download photos for free. You can get paid with advertising on a photo-sharing website or by selling good quality high resolution images that people will want to purchase, perhaps for commercial purposes."}
+	]
+}
